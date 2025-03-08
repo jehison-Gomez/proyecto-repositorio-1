@@ -16,3 +16,9 @@ header{
     font-weight: bolder;
     border: 2px solid black;
 }
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 100%;
+    height: 30px;   
+}
