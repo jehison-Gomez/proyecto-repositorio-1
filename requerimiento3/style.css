@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
 }
@@ -27,15 +27,20 @@ h1 {
     margin-bottom: 20px;
     width: 90%;
     max-width: 600px;
+    text-align: center;
+    flex-grow: 1;
 }
 
 img {
     border: solid green;
+    display: block;
+    margin: 20px auto;
+    flex-grow: 1;
 }
 
 .footer {
     font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 10px;
+    display: block;
+    margin: 20px auto;
+    flex-grow: 1;
 }
