@@ -29,13 +29,8 @@ h1 {
     max-width: 600px;
 }
 
-.image-placeholder {
-    width: 80%;
-    max-width: 600px;
-    height: 70%;
-    background-color: #f0f0f0;
-    border: 3px solid green;
-    margin-top: 10px;
+img {
+    border: solid green;
 }
 
 .footer {
